@@ -1,0 +1,148 @@
+<h1 class ="text-center"> Top Models </h1>
+<div class = "container">
+	<div class = "row">
+	</div>
+	<div class = "row" >
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("1.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("2.jpg", alt: "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("2.jpeg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("3.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+     </div>
+     <div class = "row" >
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("4.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("3.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("1.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+		<div class="col-xs-3" >
+	      <div class="thumbnail">
+	         <%= image_tag("3.jpg", :alt => "Third slide") %>
+	      </div>
+	      <div class="caption">
+	         <h3>Thumbnail label</h3>
+	         <p>Some sample text. Some sample text.</p>
+	         <p align="center">
+	            <a href="#" class="btn btn-primary" role="button">
+	               Button
+	            </a> 
+	            <a href="#" class="btn btn-default" role="button">
+	               Button
+	            </a>
+	         </p>
+	       </div>
+      	</div>
+     </div>
+</div>
+<% @model.each do |model|%>
+	<%= model.name%>
+<% end %>
